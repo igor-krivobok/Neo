@@ -1,5 +1,4 @@
-[all:children] #группа групп всех хостов
-ios
+[all:children]
 routeros
 linux
 main
