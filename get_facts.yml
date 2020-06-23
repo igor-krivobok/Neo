@@ -1,0 +1,4 @@
+- hosts: ios
+  become: yes
+  roles:
+  - role: ios_checker
