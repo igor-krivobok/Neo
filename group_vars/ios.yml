@@ -1,4 +1,5 @@
 ansible_connection: network_cli
+net_platform: cisco_ios_ssh
 ansible_user: admin
 ansible_password: 1AzRss354
 ansible_network_os: ios
