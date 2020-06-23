@@ -1,4 +1,5 @@
 - hosts: ios
   become: yes
+  connection: ssh
   roles:
-  - role: ios_checker
+  - ios_checker
