@@ -1,7 +1,6 @@
 [all:children]
-routeros
-linux
-main
+ios
+
 
 [ios:children]
 4-62
