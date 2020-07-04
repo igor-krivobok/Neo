@@ -2,4 +2,5 @@
   ios_interface:
       name: "{{item.interface}}"
       description: "{{item.description}}"
+      enabled: "{{item.enabled}}"
   with_items: "{{interface_parameters}}"

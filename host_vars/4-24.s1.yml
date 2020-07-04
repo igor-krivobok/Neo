@@ -2,12 +2,15 @@ gi: GigabitEthernet0/
 interface_parameters:
 - interface: "{{gi}}6"
   description: free
+  enabled: no
   state: absent                                   #present absent up down
 
 - interface: "{{gi}}16"
   description: 309_SuperDry
   state: up                                   #present absent up down
+  enabled: yes
 
 - interface: "{{gi}}17"
   description: 314_Adidas
   state: up                                   #present absent up down
+  enabled: yes
