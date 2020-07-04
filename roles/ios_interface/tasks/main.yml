@@ -1,6 +1,6 @@
 - name: Merge provided configuration with device configuration
-  ios_interfaces:
-    config:
-      name: GigabitEthernet0/6
-      description: 'Configured by Ansible'
-    state: replaced
+  ios_interface:
+    name: GigabitEthernet0/6
+    description: test-interface
+    duplex: full
+ 
