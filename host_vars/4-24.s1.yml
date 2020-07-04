@@ -1,16 +1,98 @@
 gi: GigabitEthernet0/
 interface_parameters:
-- interface: "{{gi}}6"
-  description: free
+
+- interface: "{{gi}}1"
+  description: FREE
+  enable: no                                  
+
+- interface: "{{gi}}2"
+  description: FREE
   enabled: no
-  state: absent                                   #present absent up down
+
+- interface: "{{gi}}3"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}4"
+  description: AP6.0-6
+  enable: yes                                  
+
+- interface: "{{gi}}5"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}6"
+  description: FREE
+  enable: no 
+
+- interface: "{{gi}}7"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}8"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}9"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}10"
+  description: FREE
+  enable: no                                  
+
+- interface: "{{gi}}11"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}12"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}13"
+  description: FREE
+  enabled: no
+
+- interface: "{{gi}}14"
+  description: FREE
+  enable: no                                  
+
+- interface: "{{gi}}15"
+  description: 319_ModaBimbo_321
+  enabled: yes
 
 - interface: "{{gi}}16"
   description: 309_SuperDry
-  state: up                                   #present absent up down
   enabled: yes
 
 - interface: "{{gi}}17"
   description: 314_Adidas
-  state: up                                   #present absent up down
+  enabled: yes
+
+- interface: "{{gi}}18"
+  description: 323_LEGO
+  enabled: yes
+
+- interface: "{{gi}}19"
+  description: PUMA
+  enabled: yes
+
+- interface: "{{gi}}20"
+  description: LittleHouse
+  enabled: yes
+
+- interface: "{{gi}}21"
+  description: 313_ATan
+  enabled: yes
+
+- interface: "{{gi}}22"
+  description: FREE
+  enabled: yes
+
+- interface: "{{gi}}23"
+  description: 318_Crocs
+  enabled: yes
+
+- interface: "{{gi}}24"
+  description: 316_Sportmaster
   enabled: yes
