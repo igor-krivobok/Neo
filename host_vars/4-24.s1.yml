@@ -3,7 +3,7 @@ interface_parameters:
 
 - interface: "{{gi}}1"
   description: FREE
-  enable: no                                  
+  enabled: no                                  
 
 - interface: "{{gi}}2"
   description: FREE
@@ -15,7 +15,7 @@ interface_parameters:
 
 - interface: "{{gi}}4"
   description: AP6.0-6
-  enable: yes                                  
+  enabled: yes                                  
 
 - interface: "{{gi}}5"
   description: FREE
@@ -23,7 +23,7 @@ interface_parameters:
 
 - interface: "{{gi}}6"
   description: FREE
-  enable: no 
+  enabled: no 
 
 - interface: "{{gi}}7"
   description: FREE
@@ -39,7 +39,7 @@ interface_parameters:
 
 - interface: "{{gi}}10"
   description: FREE
-  enable: no                                  
+  enabled: no                                  
 
 - interface: "{{gi}}11"
   description: FREE
@@ -55,7 +55,7 @@ interface_parameters:
 
 - interface: "{{gi}}14"
   description: FREE
-  enable: no                                  
+  enabled: no                                  
 
 - interface: "{{gi}}15"
   description: 319_ModaBimbo_321
