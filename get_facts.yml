@@ -1,4 +1,5 @@
-- hosts: ios
+- hosts: all
   become: yes
+  connection: local
   roles:
   - ios_checker

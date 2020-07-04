@@ -21,8 +21,8 @@ ios
 2-32
 
 [4-62]
-60021 ansible_ssh_host=192.168.249.33 ansible_ssh_user=admin
-60022 ansible_ssh_host=192.168.249.34 ansible_ssh_user=admin
+4-62.s1 
+4-62.s2 
 
 [4-61]
 4-61.s1
@@ -83,9 +83,3 @@ ios
 [2-32]
 2-32.s1
 2-32.s2
-
-
-
-
-
-
