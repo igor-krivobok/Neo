@@ -1,4 +1,5 @@
 - name: configure interface
   ios_interface:
-      name: GigabitEthernet0/17
-      description: 314_Adidas
+      name: "{{item.interface}}"
+      description: "{{item.description}}"
+  with_items: "{{interface_parameters}}"

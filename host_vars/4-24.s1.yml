@@ -1,0 +1,16 @@
+gi: GigabitEthernet0/
+interface_parameters:
+- port_number: 6
+  interface: "{{gi}}{{port_number}}"
+  description: free
+  state: down                                   #present absent up down
+
+- port_number: 16
+  interface: "{{gi}}{{port_number}}"
+  description: 309_SuperDry
+  state: up                                   #present absent up down
+
+- port_number: 17
+  interface: "{{gi}}{{port_number}}"
+  description: 314_Adidas
+  state: up                                   #present absent up down
