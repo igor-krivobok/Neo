@@ -1,4 +1,4 @@
 - name: configure interface
   ios_interface:
-      name: GigabitEthernet0/16
-      description: 309_SuperDry
+      name: GigabitEthernet0/17
+      description: 314_Adidas
