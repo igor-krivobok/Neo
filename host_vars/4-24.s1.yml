@@ -2,7 +2,7 @@ gi: GigabitEthernet0/
 interface_parameters:
 - interface: "{{gi}}6"
   description: free
-  state: down                                   #present absent up down
+  state: absent                                   #present absent up down
 
 - interface: "{{gi}}16"
   description: 309_SuperDry
