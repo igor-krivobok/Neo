@@ -1,0 +1,5 @@
+- hosts: 4-24.s1
+  become: yes
+  connection: local
+  roles:
+  - ios_interface

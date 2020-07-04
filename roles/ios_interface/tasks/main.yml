@@ -1,0 +1,7 @@
+- name: Merge provided configuration with device configuration
+  ios_interfaces:
+    config:
+      name: GigabitEthernet0/6
+      description: 'Configured by Ansible'
+      enabled: yes
+    state: replaced
