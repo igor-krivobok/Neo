@@ -4,4 +4,4 @@
       name: GigabitEthernet0/6
       description: 'Configured by Ansible'
       enabled: yes
-    state: replaced
+    state: merged
